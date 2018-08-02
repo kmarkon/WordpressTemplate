@@ -1,0 +1,40 @@
+//Open Sans
+@font-face {
+  font-family: 'OpenSans';
+  font-style: normal;
+  src: url('./assets/fonts/OpenSans-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'OpenSans-Light';
+  font-style: normal;
+  font-weight:100;
+  src: url('./assets/fonts/OpenSans-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'OpenSans-Bold';
+  font-style: normal;
+  font-weight:700;
+  src: url('./assets/fonts/OpenSans-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+
+//Roboto
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  src: url('./assets/fonts/RobotoCondensed-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Roboto-Light';
+  font-style: normal;
+  font-weight:100;
+  src: url('./assets/fonts/RobotoCondensed-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  font-style: normal;
+  font-weight:700;
+  src: url('./assets/fonts/RobotoCondensed-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+}
