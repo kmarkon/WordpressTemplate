@@ -12747,6 +12747,7 @@ $(document).ready(function(){
 
 $('.carousel').slick({
   speed: 300,
+  // dots: true
 });
 
     
