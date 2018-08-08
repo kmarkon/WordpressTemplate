@@ -5780,10 +5780,19 @@ a {
   box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.15);
   background: 255, 255, 255, 0.75; }
   #menu a {
-    color: #333;
     color: #333; }
   #menu .navbar-nav > li > a:hover, #menu .navbar-nav > li > a:focus {
     background-color: #26a1e0;
     color: #ffffff; }
+
+#slider {
+  height: 500px;
+  margin-top: 50px; }
+  #slider img {
+    margin: 0 auto; }
+  #slider .slick-next {
+    display: none !important; }
+  #slider .slick-prev {
+    display: none !important; }
 
 /*# sourceMappingURL=maps/styles.css.map */

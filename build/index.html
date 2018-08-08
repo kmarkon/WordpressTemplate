@@ -6,7 +6,8 @@ git status<!DOCTYPE html>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Basic template</title>
     <link rel="stylesheet" href="./styles.css">
-    
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css"/>
+
 </head>
    <body id="home">
     <nav id="menu" class="navbar navbar-default navbar-fixed-top">
@@ -38,9 +39,30 @@ git status<!DOCTYPE html>
         </div><!-- /.container-->
     </nav>
 
-    <section id="slider"></section>
+    <section id="slider">
+        <div class="carousel">
+            <div><img class="img-responsive" src="./assets/img/image1.jpg" alt=""></div>
+            <div><img class="img-responsive" src="./assets/img/image1.jpg" alt=""></div>
+            <div><img class="img-responsive" src="./assets/img/image1.jpg" alt=""></div>
+        </div>
+    </section>
 
-    <section id="newsletter"></section>
+    <section id="newsletter">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8">
+                    <h3>Zapisz się do newslletera</h3>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-newsletter">
+                    Zapisz się!
+                    </button>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
 
     <section id="about"></section>
 
@@ -53,7 +75,55 @@ git status<!DOCTYPE html>
     <section id="contact"></section>
 
     <footer></footer>
+
+
+
+    <!-- Modal -->
+        <div class="modal fade" id="modal-newsletter" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Zapisz się do newslettera</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group row">
+                        <label for="inputName" class="col-sm-3 col-form-label">Twoje imię</label>
+                        <div class="col-sm-9">
+                        <input type="text" class="form-control" id="inputName" placeholder="Twoje imię">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputEmail" class="col-sm-3 col-form-label">Twój e-mail</label>
+                        <div class="col-sm-9">
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Twój e-mail">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck1">
+                            <label class="form-check-label" for="gridCheck1">
+                            Lorem
+                            </label>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-12">
+                        <button type="submit" class="btn btn-primary pull-right">Zapisz mnie!</button>
+                        </div>
+                    </div>
+                    </form>
+            </div>
+        </div>
+        </div>
+        </div>
+
+    <script type="text/javascript" src="./index.js"></script>
+    <script type="text/javascript" src="slick/slick.js"></script>
   </body>
-    <script src="./index.js"></script>
-</body>
 </html>

@@ -12741,10 +12741,14 @@ if (typeof jQuery === 'undefined') {
 
 }(jQuery);
 
+$(document).ready(function(){
 
-$(document).ready(function(){  
-  console.log('start');
- 
- 
+//slider
+
+$('.carousel').slick({
+  speed: 300,
+});
+
+    
 });
 //# sourceMappingURL=maps/index.js.map
