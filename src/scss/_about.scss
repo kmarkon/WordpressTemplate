@@ -1,0 +1,21 @@
+.about-content, .about-image{
+    min-height: 400px;
+}
+.about-image{
+    padding: 0;
+    background: url("../assets/img/about-image.jpg") no-repeat;
+    background-size:cover;
+}
+.about-content{
+    padding:60px;
+    h3{
+        margin-top:0;
+        margin-bottom: 15px;
+    }
+}
+.separator{
+    background-color: $blue;
+    height: 2px;
+    width:70px;
+    margin-bottom:20px;
+}

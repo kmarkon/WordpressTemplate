@@ -8,3 +8,12 @@ h1, h2, h3, h4, h5, h6{
 a{
     transition: all easy-out;
 }
+.content-dark{
+    background-color: $dark-blue;
+    h1, h2, h3, h4, p{
+        color:#ffffff;
+    }
+    img{
+        color:#ffffff;
+    }
+}
